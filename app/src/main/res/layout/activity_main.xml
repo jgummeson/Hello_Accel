@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/accel_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Accelerometer" />
+
+    <TextView
+        android:id="@+id/title_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/xlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:" />
+
+    <TextView
+        android:id="@+id/xval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/ylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y:" />
+
+    <TextView
+        android:id="@+id/yval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/zlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z:" />
+
+
+    <TextView
+        android:id="@+id/zval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+
+</LinearLayout>
